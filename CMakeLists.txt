@@ -78,7 +78,7 @@ endif()
 
 target_include_directories(${libName} INTERFACE
   $<BUILD_INTERFACE:${moduleDir}>
-  $<INSTALL_INTERFACE:include/cice>)
+  $<INSTALL_INTERFACE:include/${libName}>)
 
 if(OpenMP_Fortran_FOUND)
   target_link_libraries(${libName} PUBLIC OpenMP::OpenMP_Fortran)
