@@ -1,0 +1,4 @@
+[submodule "CICE"]
+	path = CICE
+	url = https://github.com/NOAA-EMC/CICE
+	branch = emc/develop
